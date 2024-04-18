@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+list1=[1,2,42,5,69]
+list2=[70,24,42,10,1]
+plt.scatter(list1,list2,color='red',marker='*')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('simple scatter plot')
+plt.show()
